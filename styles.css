@@ -13,7 +13,7 @@
 * { box-sizing: border-box; }
 html { 
   scroll-behavior: smooth;
-  background-color: #0d0d0d; 
+  background-color: #585858; 
 }
 
 
@@ -257,37 +257,9 @@ h1, h2, h3, p { margin-top: 0; }
 h1 { font-size: 38px; line-height: 1.06; letter-spacing: -2px; margin-bottom: 0; font-weight: 800; }
 h1 span { color: #9dbb00; }
 
-.menu-section { margin-bottom: 34px; }
-.section-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 16px; gap: 8px; }
-.section-heading .eyebrow { margin-bottom: 6px; }
+
 h2 { font-size: 25px; letter-spacing: -1px; line-height: 1.1; margin: 0; }
-.item-count { font-size: 8px; letter-spacing: 1.2px; color: var(--muted); padding-bottom: 4px; text-align: right; }
-.product-list { display: grid; gap: 13px; }
-.product-card { display: grid; grid-template-columns: 112px 1fr; gap: 13px; padding: 10px; background: var(--panel); border: 1px solid #e8e4da; border-radius: 14px; }
-.product-image { min-height: 130px; border-radius: 9px; display: flex; align-items: center; justify-content: center; overflow: hidden; text-align: center; }
-.product-image span { font-size: 8px; letter-spacing: 1px; font-weight: 800; color: #ffffffb8; border: 1px solid #ffffff66; padding: 6px; }
-.image-burger { background: radial-gradient(circle at 50% 45%, #b7793e, #553521 55%, #30251d); }
-.image-lemonade { background: radial-gradient(circle at 60% 30%, #f3d879, #9caa50 54%, #4a5a37); }
-.image-dessert { background: radial-gradient(circle at 45% 45%, #d9b7a0, #805c49 55%, #49382f); }
-.product-info { padding: 4px 0 2px; min-width: 0; display: flex; flex-direction: column; }
-.product-title-row { display: flex; justify-content: space-between; gap: 7px; align-items: start; }
-.product-title-row h3 { font-size: 13px; line-height: 1.3; letter-spacing: -.3px; margin: 0 0 8px; }
-.price { white-space: nowrap; font-size: 12px; font-weight: 800; }
-.product-info > p { font-size: 10px; line-height: 1.55; color: var(--muted); margin: 0 0 10px; }
-.product-meta { display: flex; align-items: center; gap: 8px; margin-top: auto; font-size: 9px; color: #85837a; }
-.tag { background: var(--accent); color: var(--ink); padding: 4px 6px; font-size: 7px; font-weight: 800; letter-spacing: .6px; border-radius: 3px; }
-.more-section { padding-top: 4px; }
-.menu-row { display: flex; justify-content: space-between; gap: 14px; padding: 17px 0; border-bottom: 1px solid var(--line); }
-.menu-row h3 { font-size: 13px; margin: 0 0 5px; }
-.menu-row p { font-size: 10px; line-height: 1.5; color: var(--muted); margin: 0 0 7px; max-width: 260px; }
-.menu-row strong { white-space: nowrap; font-size: 12px; }
-.small-meta { font-size: 9px; color: #96948b; }
-.info-card { background: var(--accent); padding: 22px; border-radius: 14px; margin: 10px 0 0; }
-.info-card .eyebrow { color: #525c24; }
-.info-card h2 { font-size: 29px; margin-bottom: 9px; }
-.info-card > p:not(.eyebrow) { color: #42472b; font-size: 11px; line-height: 1.65; max-width: 280px; }
-.contact-link { display: flex; justify-content: space-between; align-items: center; color: var(--ink); border-top: 1px solid #17171540; padding-top: 13px; text-decoration: none; font-size: 11px; font-weight: 800; }
-.contact-link span { font-size: 18px; }
+
 footer { padding: 30px 20px 26px; text-align: center; background: var(--ink); color: #f8f6ee; }
 .footer-brand { font-size: 44px; letter-spacing: -2px; margin: 0 0 5px; }
 .footer-brand span { font-size: 9px; }
